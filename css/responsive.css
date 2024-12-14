@@ -1,0 +1,7 @@
+@media (max-width: 480px) {
+    .header-right {
+        height: 0px;
+        visibility: hidden;
+       display: none;
+    }
+}
