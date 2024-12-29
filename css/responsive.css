@@ -1,5 +1,7 @@
 @media (max-width: 767px) {
-
+    .container {
+        width: 100%;
+    }
     #header {
       height: auto;
       width: 100%;
@@ -14,6 +16,9 @@
         width: 100%;
         text-align: center;
     }
+    .header-left p {
+        font-size: 14px;
+    }
     .header-right {
         display: none;
     }
@@ -27,8 +32,41 @@
     height: auto;
     width: 100%;
 }
+.logo-box {
+    box-sizing: border-box;
+    padding: 0px 5px;
+    width: 30%;
+}
+.logo-box img {
+    width:95%;
+}
 .search-box {
     display: none;
+}
+.buy-shortcut {
+    width: 70%;
+}
+.buy-shortcut i {
+    font-size: 24px;
+}
+.card-dittels {
+    box-sizing: border-box;
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-dittels span {
+    font-size: 14px;
+}
+.card-dittels p {
+    font-weight: 500;
+}
+.searcBtn {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin: 0px 10px;
 }
 /* header Middel END......................  */
 
@@ -71,61 +109,17 @@
 }
 /* header bottom END ...........................> */
 
-
 /* HEROR Slider STYle START ..................> */
-.InfoSlider {
-    height: 100%;
+
+
+
+
+.sliderbox {
+    height: 100vh;
     width: 100%;
 }
-.infoBox {
-    height: auto;
-    width: auto;
-    margin-right: 50px;
-}
-.infoBox .wlmMsg {
-	font-family: var(--second-family);
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 100%;
-	letter-spacing: 0.02em;
-	text-transform: uppercase;
-	/* text-align: center; */
-	color: var(--branding-success);
-}
-.infoBox h1 {
-	font-family: var(--font-family);
-	font-weight: 600;
-	font-size: 36px;
-	line-height: 120%;
-	color: var(--gren-gray-scale-900);
-}
-.infoBox p {
-	font-family: var(--font-family);
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 150%;
-	color: var(--gren-gray-scale-500);
-}
-.infoBox button {
-	border-radius: 43px;
-	padding: 16px 40px;
-	width: 200px;
-	height: 51px;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	gap: 10px;
-	font-family: var(--font-family);
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 120%;
-	color: var(--gray-scale-white);
-	background: var(--branding-success);
-	outline: none;
-	border: none;
-	cursor: pointer;
-	margin-top: 20px;
+.sliderItems {
+    height: 100%;
 }
 /* HEROR Slider STYle END ..................> */
 
@@ -164,4 +158,95 @@
         width: 80%;
     }
 /* feature Box STYling END ...............> */
+
+
+/* mixiTup Section Design START */
+.items-box {
+    height: auto;
+    width: 100%;
+    background: var(--gray-scale-gray-100);
+	/* padding-top: 200px; */
 }
+.mixitupContainer {
+    height: auto;
+    width: 100%;
+}
+.items-lower {
+    height: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding-top: 50px;
+}
+.itemsTitle {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+.lower-menu .mixiMenu {
+	color: var(--gray-scale-gray-500);
+	padding: 5px 5px;
+	/* margin: 0px 10px; */
+	position: relative;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.itemsMixer-box {
+    padding: 0;
+}
+#MixItUpFEED56 {
+    width: 100%;
+    padding-bottom: 20px;
+    height: auto;
+}
+.mixer-all {
+    justify-content: center;
+}
+.mixer-prodect {
+	height: 427px;
+	width: 85%;
+	border:1px solid var(--gray-scale-gray-300);
+	/* border-radius: 5px; */
+	overflow: hidden;
+	background: var(--gray-scale-white);
+	border: 1px solid var(--gren-gray-scale-100);	
+}
+/* mixiTup Section Design END */
+}
+
+
+
+/* spacial Product Items Section START  */
+.spacial-product {
+    height:auto;
+    width: 100%;
+    padding: 20px 0px ;
+}
+.spacialPContainer {
+    height: auto;
+    width: 100%;
+}
+.spacialProduct-box {
+    height: auto;
+	width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.spaicalItems {
+    width: 424px;
+	border-radius: 8px;
+	object-fit: contain;
+	position: relative;
+}
+.coke-style {
+	justify-content: center;
+	align-items: start;
+}
+/* spacial Product Items Section END  */
